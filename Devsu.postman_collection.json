@@ -1,0 +1,410 @@
+{
+	"info": {
+		"_postman_id": "3707f67e-e4e3-43f6-864d-6c1ab1db224e",
+		"name": "Devsu",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Clientes",
+			"item": [
+				{
+					"name": "CreateCliente",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Identificacion\": \"0104027080\",\r\n  \"Nombres\": \"Eduardo Arcentales\",\r\n  \"Genero\": 1,\r\n  \"FechaNacimiento\": \"2002-04-23T18:25:43.511Z\",\r\n  \"Direccion\": \"La Granja\",\r\n  \"Telefono\": \"314\",\r\n  \"Contrasena\": \"4321\",\r\n  \"Estado\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44394/Clientes",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Clientes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateCliente",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"idCliente\": 5,\r\n  \"Identificacion\": \"0104027040\",\r\n  \"Nombres\": \"Jose Lema Benavides\",\r\n  \"Genero\": 0,\r\n  \"FechaNacimiento\": \"1997-04-23T18:25:43.511Z\",\r\n  \"Direccion\": \"Otavalo sn y principal\",\r\n  \"Telefono\": \"098254785 \",\r\n  \"Contrasena\": \"4321\",\r\n  \"Estado\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44394/Clientes",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Clientes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetClientes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44394/Clientes/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Clientes",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetEspecificClient",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44394/Clientes/010502",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Clientes",
+								"010502"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteCliente",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44394/Clientes/9",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Clientes",
+								"9"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Cuentas",
+			"item": [
+				{
+					"name": "CreateCuenta",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"numerocuenta\": \"655547\",\r\n  \"tipocuenta\": \"CORRIENTE\",\r\n  \"saldoInicial\": 100,\r\n  \"saldoDisponible\": 100,\r\n  \"estado\": true,\r\n  \"clienteId\": 5\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44394/Cuentas",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Cuentas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateCuenta",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"numerocuenta\": \"655545\",\r\n  \"tipocuenta\": 1,\r\n  \"saldoInicial\": 100,\r\n  \"saldoDisponible\": 100,\r\n  \"estado\": true,\r\n  \"clienteId\": 5\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44394/Cuentas",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Cuentas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCuenta",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44394/Cuentas/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Cuentas",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetEspecificCuenta",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44394/Cuentas/478758",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Cuentas",
+								"478758"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteCuenta",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44394/Cuentas/585545",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Cuentas",
+								"585545"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Movimientos",
+			"item": [
+				{
+					"name": "CreateMovimiento",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"fecha\": \"2022-02-08T13:00:00.000Z\",\r\n  \"tipoMovimiento\": 0,\r\n  \"valor\": 1001,\r\n  \"numeroCuenta\": \"478758\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44394/Movimientos",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Movimientos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateMovimiento",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 4,\r\n  \"fecha\": \"2022-02-15T13:00:00.000Z\",\r\n  \"tipoMovimiento\": 0,\r\n  \"valor\": 600,\r\n  \"numeroCuenta\": \"496825\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44394/Movimientos",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Movimientos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetMovimientos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44394/Movimientos/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Movimientos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetEspecificMovimiento",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44394/Movimientos/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Movimientos",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteMovimiento",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44394/Movimientos/5",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Movimientos",
+								"5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Reportes",
+			"item": [
+				{
+					"name": "Reporte",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44394/reportes?FechaInicio=2022-02-01T00:00:00.000Z&fechaFin=2022-02-28T00:00:00.000&IdentificacionCliente=0105020341",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"reportes"
+							],
+							"query": [
+								{
+									"key": "FechaInicio",
+									"value": "2022-02-01T00:00:00.000Z"
+								},
+								{
+									"key": "fechaFin",
+									"value": "2022-02-28T00:00:00.000"
+								},
+								{
+									"key": "IdentificacionCliente",
+									"value": "0105020341"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
