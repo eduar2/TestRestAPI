@@ -1,0 +1,13 @@
+E:\Personal\codes\ApiRESTDevsu\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.deps.json
+E:\Personal\codes\ApiRESTDevsu\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+E:\Personal\codes\ApiRESTDevsu\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+E:\Personal\codes\ApiRESTDevsu\BusinessLayer\bin\Debug\netcoreapp3.1\DataAccess.dll
+E:\Personal\codes\ApiRESTDevsu\BusinessLayer\bin\Debug\netcoreapp3.1\DataAccess.pdb
+E:\Personal\codes\ApiRESTDevsu\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.AssemblyReference.cache
+E:\Personal\codes\ApiRESTDevsu\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Personal\codes\ApiRESTDevsu\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfoInputs.cache
+E:\Personal\codes\ApiRESTDevsu\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfo.cs
+E:\Personal\codes\ApiRESTDevsu\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CoreCompileInputs.cache
+E:\Personal\codes\ApiRESTDevsu\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CopyComplete
+E:\Personal\codes\ApiRESTDevsu\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
+E:\Personal\codes\ApiRESTDevsu\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb

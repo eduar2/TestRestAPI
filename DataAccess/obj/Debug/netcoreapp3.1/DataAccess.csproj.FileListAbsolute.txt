@@ -1,0 +1,13 @@
+E:\Personal\codes\ApiRESTDevsu\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+E:\Personal\codes\ApiRESTDevsu\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+E:\Personal\codes\ApiRESTDevsu\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+E:\Personal\codes\ApiRESTDevsu\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+E:\Personal\codes\ApiRESTDevsu\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+E:\Personal\codes\ApiRESTDevsu\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+E:\Personal\codes\ApiRESTDevsu\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Personal\codes\ApiRESTDevsu\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+E:\Personal\codes\ApiRESTDevsu\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+E:\Personal\codes\ApiRESTDevsu\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+E:\Personal\codes\ApiRESTDevsu\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+E:\Personal\codes\ApiRESTDevsu\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+E:\Personal\codes\ApiRESTDevsu\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache
